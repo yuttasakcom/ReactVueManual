@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+const inProduction = (process.env.NODE_ENV === 'prod')
 module.exports = {
     entry: {
         build: './src/index.js',
@@ -57,3 +57,9 @@ module.exports = {
         }),
     ]
 }
+
+if (inProduction) {
+    module.exports.plugins.push(
+        new webpack.optimize.UglifyJsPlugin()
+    )
+} 

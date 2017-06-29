@@ -6,7 +6,7 @@
   "author": "Yuttasak Pannawat <yuttasakcom@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "NODE_ENV=prod webpack",
     "dev": "webpack-dev-server"
   },
   "dependencies": {
