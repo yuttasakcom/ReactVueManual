@@ -1,0 +1,25 @@
+{
+  "name": "react-vue101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yuttasakcom/react-vue101.git",
+  "author": "Yuttasak Pannawat <yuttasakcom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "yarn build -- --watch"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-vue": "^0.0.3",
+    "react-vue-helper": "^0.0.4",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-react": "^7.1.0",
+    "webpack": "^3.0.0"
+  }
+}
