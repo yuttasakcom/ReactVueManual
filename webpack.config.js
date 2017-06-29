@@ -33,6 +33,10 @@ module.exports = {
                 options: {
                     vue: './vue.config.js'
                 }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             }
         ]
     },
