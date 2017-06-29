@@ -6,13 +6,13 @@
 - ใช้ react-vue-native-script เพื่อเรียกใช้คอมโพเนนต์ Vue ใน React Native
 
 ## สารบัญ
-- บทที่ 1 Reactivity System
+- [บทที่ 1 Reactivity System](#reactivity-system)
 
 
-## Reactivity-System
+#### Reactivity-System
 ด้วยการออกแบบตามลำดับชั้นที่ชัดเจนของ Vue เราจึงสามารถดึง reactivity (ขนาด 9 กิโลไบต์ gzipped) ออกมา และนำเสนอการแสดงองค์ประกอบบน React<br>
 
-### การติดตั้ง
+##### การติดตั้ง
 ติดตั้งด้วย npm พิมพ์คำสั่ง `npm i --save react-vue`<br>
 หรือ<br>
 ติดตั้งด้วย yarn พิมพ์คำสั่ง `yarn add react-vue`
