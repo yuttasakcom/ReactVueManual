@@ -1,12 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-
-const App = () => <div>Hello</div>
+import Home from '@/pages/Home.vue'
 
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={App}/>
+      <Route exact path="/" component={Home}/>
     </Switch>
   </Router>
 )
