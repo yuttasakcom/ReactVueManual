@@ -8,11 +8,11 @@ import '@/assets/css/mystyle.css'
 
 import Header from '@/containers/Header.vue'
 
-const App = () =>
-	<div>
-		<Header />
-		<Routes />
-		<div>Footer</div>
-	</div>
+const App = () => 
+  <div>
+    <Header />
+    <Routes />
+    <div>Footer</div>
+  </div>
 
 ReactDOM.render(<App />, document.getElementById('app'))
