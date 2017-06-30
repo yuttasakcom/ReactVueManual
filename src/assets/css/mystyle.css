@@ -1,3 +1,15 @@
-html {
-  background-color: #00ffc4;
+body {
+  color: #fff;
+  background-image: url('/static/img/bg/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.mytext-primary {
+  color: #00ffc4;
 }
