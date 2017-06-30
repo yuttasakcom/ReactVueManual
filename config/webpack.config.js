@@ -45,11 +45,20 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/,
-        loader: 'file-loader',
-        options: {
-          name: path.posix.join('assets', 'img/[name].[hash:7].[ext]')
-        }
+        test: /\.(eot|ttf|woff|woff2)$/,
+        use: 'file-loader',
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        loaders: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: path.posix.join('assets', 'img/[name].[hash:7].[ext]')
+            }
+          },
+          'img-loader'
+        ]
       }
     ]
   },
