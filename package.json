@@ -1,8 +1,8 @@
 {
-  "name": "react-vue101",
+  "name": "ReactVueManual",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:yuttasakcom/react-vue101.git",
+  "repository": "https://github.com/yuttasakcom/ReactVueManual",
   "author": "Yuttasak Pannawat <yuttasakcom@gmail.com>",
   "license": "MIT",
   "scripts": {
